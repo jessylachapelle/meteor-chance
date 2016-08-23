@@ -11,8 +11,17 @@ Npm.depends({
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom('METEOR@1.2');
-  api.export('Chance');
-  api.addFiles('.npm/package/node_modules/chance/chance.js', ['client']);
-  api.addFiles('lib/chance.js', 'server');
+  api.versionsFrom('1.2.1');
+
+  api.addFiles([
+    '.npm/package/node_modules/chance/chance.js',
+  ], ['client']);
+
+  api.addFiles([
+    'lib/chance.js',
+  ], ['client', 'server']);
+
+  api.export([
+    'chance',
+  ], ['client', 'server']);
 });
