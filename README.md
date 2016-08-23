@@ -11,17 +11,10 @@ Meteor package for [Chance](http://chancejs/) - a minimalist generator of random
 
 ## Usage
 
-On client:
+On client and server:
 
 ```js
     chance.name();
-```
-
-On server:
-
-```js
-    var chance = new Chance()
-    chance.name()
 ```
 
 ## Documentaion
