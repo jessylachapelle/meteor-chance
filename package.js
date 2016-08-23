@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'jlachap:chance',
+  name: 'katimag33k:chance',
   summary: 'Meteor package for Chance - Random generator helper for JavaScript: http://chancejs.com',
   version: '1.1.0',
-  git: 'hhttps://github.com/jessylachapelle/meteor-chance',
+  git: 'https://github.com/katima-g33k/meteor-chance',
 });
 
 Npm.depends({

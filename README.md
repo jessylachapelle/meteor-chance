@@ -6,7 +6,7 @@ Meteor package for [Chance](http://chancejs/) - a minimalist generator of random
 ## Installing
 
 ```bash
-    meteor add risul:chance
+    meteor add katimag33k:chance
 ```
 
 ## Usage
