@@ -1,6 +1,6 @@
 /* eslint prefer-arrow-callback: 0 */
 Package.describe({
-  name: 'katimag33k:chance',
+  name: 'jlachapelle:chance',
   summary: 'Meteor package for Chance - Random generator helper for JavaScript: http://chancejs.com',
   version: '1.0.0',
   git: 'https://github.com/katima-g33k/meteor-chance',
